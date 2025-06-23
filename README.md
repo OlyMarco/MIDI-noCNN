@@ -9,25 +9,6 @@ This project provides a MidiFormer implementation without CNN components, suppor
 - **Task 2**: Emotion and Style Classification (sequence-level tasks)
 - **Task 3**: Four downstream tasks (melody, velocity, composer, emotion)
 
-## Project Structure
-
-```
-MIDI-noCNN/
-├── data/CP/                    # Training data
-│   ├── emopia_train.npy       # Training data example
-│   ├── emopia_train_ans.npy   # Training labels example
-│   └── tmp/                   # Temporary data folders
-│       ├── melody/            # Melody task data
-│       └── velocity/          # Velocity task data
-├── MidiFormer/CP/             # Core model implementation
-│   ├── model.py              # MidiFormer model
-│   ├── finetune_model.py     # Fine-tuning models
-│   ├── trainer.py            # Training logic
-│   └── result/               # Results and models
-│       └── pretrain/         # Pre-trained models
-└── result/                   # Training logs and outputs
-```
-
 ## Installation
 
 1. Install required dependencies:
