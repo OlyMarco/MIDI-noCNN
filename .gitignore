@@ -1,0 +1,14 @@
+# 忽略预训练模型结果文件夹
+MidiFormer/CP/result/pretrain/cnn-a/
+MidiFormer/CP/result/pretrain/cnn-a-LM/
+
+# 或者更通用地忽略所有预训练结果
+MidiFormer/CP/result/pretrain/*/
+
+# 忽略模型检查点文件
+*.ckpt
+model_best.ckpt
+
+# 忽略TensorBoard日志
+tensorboard_logs/
+*.tfevents.*
